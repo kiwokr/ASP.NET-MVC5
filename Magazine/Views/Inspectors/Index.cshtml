@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Magazine.Models.Inspector>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<table class="table">
+    <tr>
+        <th>
+            <h4>Фамилия</h4>
+        </th>
+        <th>
+            <h4>Имя</h4>
+        </th>
+        <th>
+            <h4>Отчество</h4>
+        </th>
+        <th>
+            <h4>Подразделение</h4>
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.LastName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MiddleName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Division.Name)
+        </td>
+        <td>
+            @Html.ActionLink("Редактировать", "Edit", new { id = item.InspectorID }) |
+            @Html.ActionLink("Подробнее", "Details", new { id = item.InspectorID }) |
+            @Html.ActionLink("Удалить", "Delete", new { id = item.InspectorID })
+        </td>
+    </tr>
+}
+
+</table>
+<p>
+    @Html.ActionLink("Добавить", "Create")
+    @Html.ActionLink("Лучшие инспектора","Best")
+</p>

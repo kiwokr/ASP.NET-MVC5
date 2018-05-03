@@ -1,0 +1,19 @@
+﻿@model Magazine.Models.Division
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div>
+    
+    <h4>Список инспекторов: <b>@Html.DisplayFor(model => model.Name)</b>    </h4>        
+    <ol>
+        @foreach (var t in Model.Inspectors)
+        {
+        <li>@t.LastName @t.FirstName @t.MiddleName</li>
+        }
+    </ol>
+</div>
+<p>
+    @Html.ActionLink("Назад", "Index")
+</p>

@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Magazine.Models.Inspector>
+
+@{
+    ViewBag.Title = "Best";
+}
+
+
+@{
+    int BestCount1 = 0, BestCount2 = 0;
+    double BestSumm1 = 0, BestSumm2 = 0, Summ = 0;
+    int WinnerCountID = 0;
+    int WinnerSumID = 0;
+}
+
+@foreach (var insp in Model)
+{
+    BestCount2 = insp.Revisions.Count;
+    if (BestCount2 > BestCount1)
+    {
+        BestCount1 = BestCount2;
+        WinnerCountID = insp.InspectorID;
+        BestCount2 = 0;
+    }
+}
+
+
+@foreach (var insp in Model)
+{
+    foreach (var T in insp.Revisions)
+    {
+        foreach (var P in T.CurrentViolations)
+        {
+            BestSumm1 += Double.Parse(P.UsingSanctions);
+        }
+    }
+    if (BestSumm1 > BestSumm2)
+    {
+        BestSumm2 = BestSumm1;
+        WinnerSumID = insp.InspectorID;
+        BestSumm1 = 0;
+    }
+}
+
+
+@foreach (var insp in Model)
+{
+    if (insp.InspectorID == WinnerCountID)
+    {
+        <H4>Лидер по количеству проверок: @insp.LastName @insp.FirstName @insp.MiddleName (@insp.Revisions.Count)</H4>
+    }
+    if (insp.InspectorID == WinnerSumID)
+    {
+        <H4>Лидер по штрафам: @insp.LastName @insp.FirstName @insp.MiddleName (@BestSumm2)</H4>
+    }
+}

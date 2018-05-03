@@ -1,0 +1,40 @@
+﻿@model Magazine.Models.Violation
+@using Magazine.Models
+@{
+    ViewBag.Title = "Details2";
+}
+
+<div>
+    <hr />
+
+    <h5><b>Нарушение:</b> @Html.DisplayFor(model => model.Name)</h5>
+    <h5><b>Наказание:</b> @Html.DisplayFor(model => model.Sanction)</h5>
+    <table class="table">
+        <tr>
+            <th><b>Предприятие</b></th>
+            <th><b>Номер протокола</b></th>
+            <th><b>Инспектор</b></th>
+            <th><b>Ответственный</b></th>
+            <th><b>Отметка об оплате</b></th>
+            <th><b>Отметка об устранении</b></th>
+            <th><b>Штраф</b></th>
+        </tr>
+
+
+        @foreach (var t in Model.CurrentViolations)
+        {
+            <tr>
+                <td>@t.Revision.Enterprise.PropForm @t.Revision.Enterprise.Name</td>
+                <td>@t.RevisionID</td>
+                <td>@t.Revision.Inspector.LastName @t.Revision.Inspector.FirstName @t.Revision.Inspector.MiddleName</td>
+                <td>@t.Responsible</td>
+                <td>@t.PayCheck</td>
+                <td>@t.DisposalCheck</td>
+                <td>@t.UsingSanctions</td>
+            </tr>
+        }
+    </table>
+</div>
+<p>
+    @Html.ActionLink("Назад", "Index")
+</p>

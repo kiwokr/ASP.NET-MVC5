@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Magazine.Models.Revision>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<table class="table">
+    <tr>
+
+        <th>
+            <h4><b>Предприятие</b></h4>
+        </th>
+        <th>
+            <h4><b>Фамилия инспектора</b></h4>
+        </th>
+        <th>
+            <h4><b>Дата проверки</b></h4>
+        </th>
+        <th>
+            <h4><b>Номер протокола</b></h4>
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+
+        <td>
+            @Html.DisplayFor(modelItem => item.Enterprise.PropForm) @Html.DisplayFor(modelItem => item.Enterprise.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Inspector.LastName) @Html.DisplayFor(modelItem => item.Inspector.FirstName) @Html.DisplayFor(modelItem => item.Inspector.MiddleName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RevisionDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RevisionID)
+        </td>
+        <td>
+            @Html.ActionLink("Редактировать", "Edit", new { id = item.RevisionID }) |
+            @Html.ActionLink("Подробнее", "Details", new { id = item.RevisionID }) |
+            @Html.ActionLink("Удалить", "Delete", new { id = item.RevisionID })
+        </td>
+    </tr>
+}
+
+</table>
+<p>
+    @Html.ActionLink("Добавить", "Create")
+</p>

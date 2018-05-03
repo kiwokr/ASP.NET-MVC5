@@ -1,0 +1,74 @@
+﻿@model Magazine.Models.CurrentViolation
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>CurrentViolation</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Responsible)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Responsible)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UsingSanctions)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UsingSanctions)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DisposalCheck)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DisposalCheck)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PayCheck)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PayCheck)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DispTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DispTime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Revision.RevisionDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Revision.RevisionDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Violation.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Violation.Name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.CurrentViolationID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,21 @@
+﻿@model Magazine.Models.Division
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+
+<h4>Вы уверенны что хотите удалить эту запись ?</h4>
+<div>
+    <hr />
+    <B>@Html.DisplayFor(model => model.Name)</B>
+    <hr />
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            @Html.ActionLink("Назад", "Index")                                  <input type="submit" value="Удалить" class="btn btn-default" />
+        </div>
+    }
+</div>

@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Magazine.Models.Enterprise>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<table class="table">
+    <tr>
+        <th>
+            <h5><b>Название предприятия</b></h5>
+        </th>
+        <th>
+            <h5><b>ФИО директора</b></h5>
+        </th>
+        <th>
+            <h5><b>Адрес</b></h5>
+        </th>
+        <th>
+            <h5><b>Номер телефона</b></h5>
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.PropForm)
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BossLastName)
+            @Html.DisplayFor(modelItem => item.BossFirstName)
+            @Html.DisplayFor(modelItem => item.BossMiddleName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PhoneNumber)
+        </td>
+        <td>
+            @Html.ActionLink("Редактировать", "Edit", new { id=item.EnterpriseID }) |
+            @Html.ActionLink("Удалить", "Delete", new { id=item.EnterpriseID })
+        </td>
+    </tr>
+}
+
+</table>
+<p>
+    @Html.ActionLink("Добавить", "Create")
+</p>

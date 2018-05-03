@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Magazine.Models.Violation>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<table class="table">
+    <tr>
+        <th>
+           <h5><b>Нарушение</b></h5> 
+        </th>
+        <th>
+            <h5><b>Наказание</b></h5>
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Sanction)
+        </td>
+        <td>
+            @Html.ActionLink("Редактировать", "Edit", new { id=item.ViolationID }) |
+            @Html.ActionLink("Подробнее", "Details", new { id=item.ViolationID }) |
+            @Html.ActionLink("Удалить", "Delete", new { id=item.ViolationID })
+        </td>
+    </tr>
+}
+
+</table>
+<p>
+    @Html.ActionLink("Добавить", "Create")
+</p>

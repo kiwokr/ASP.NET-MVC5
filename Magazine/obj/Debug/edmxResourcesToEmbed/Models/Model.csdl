@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MyDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CurrentViolation">
+    <Key>
+      <PropertyRef Name="CurrentViolationID" />
+    </Key>
+    <Property Name="CurrentViolationID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ViolationID" Type="Int32" />
+    <Property Name="Responsible" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="UsingSanctions" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DisposalCheck" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PayCheck" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DispTime" Type="DateTime" Precision="0" />
+    <Property Name="RevisionID" Type="Int32" />
+    <NavigationProperty Name="Revision" Relationship="Self.FK__CurrentVi__Revis__04E4BC85" FromRole="CurrentViolations" ToRole="Revisions" />
+    <NavigationProperty Name="Violation" Relationship="Self.FK__CurrentVi__Viola__36B12243" FromRole="CurrentViolations" ToRole="Violations" />
+    <NavigationProperty Name="OneRevisions" Relationship="Self.FK__OneRevisi__Curre__4BAC3F29" FromRole="CurrentViolations" ToRole="OneRevisions" />
+  </EntityType>
+  <EntityType Name="Division">
+    <Key>
+      <PropertyRef Name="DivisionID" />
+    </Key>
+    <Property Name="DivisionID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Inspectors" Relationship="Self.FK__Inspector__Divis__6E01572D" FromRole="Divisions" ToRole="Inspectors" />
+  </EntityType>
+  <EntityType Name="Enterprise">
+    <Key>
+      <PropertyRef Name="EnterpriseID" />
+    </Key>
+    <Property Name="EnterpriseID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PropForm" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="BossLastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="BossFirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="BossMiddleName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="13" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="OneRevisions" Relationship="Self.FK__OneRevisi__Enter__49C3F6B7" FromRole="Enterprises" ToRole="OneRevisions" />
+    <NavigationProperty Name="Revisions" Relationship="Self.FK__Revisions__Enter__02FC7413" FromRole="Enterprises" ToRole="Revisions" />
+  </EntityType>
+  <EntityType Name="Inspector">
+    <Key>
+      <PropertyRef Name="InspectorID" />
+    </Key>
+    <Property Name="InspectorID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DivisionID" Type="Int32" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MiddleName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Division" Relationship="Self.FK__Inspector__Divis__6E01572D" FromRole="Inspectors" ToRole="Divisions" />
+    <NavigationProperty Name="OneRevisions" Relationship="Self.FK__OneRevisi__Inspe__4AB81AF0" FromRole="Inspectors" ToRole="OneRevisions" />
+    <NavigationProperty Name="Revisions" Relationship="Self.FK__Revisions__Inspe__03F0984C" FromRole="Inspectors" ToRole="Revisions" />
+  </EntityType>
+  <EntityType Name="OneRevision">
+    <Key>
+      <PropertyRef Name="RevisionsID" />
+    </Key>
+    <Property Name="RevisionsID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EnterpriseID" Type="Int32" />
+    <Property Name="InspectorID" Type="Int32" />
+    <Property Name="CurrentViolationID" Type="Int32" />
+    <Property Name="RevisionDate" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="CurrentViolation" Relationship="Self.FK__OneRevisi__Curre__4BAC3F29" FromRole="OneRevisions" ToRole="CurrentViolations" />
+    <NavigationProperty Name="Enterprise" Relationship="Self.FK__OneRevisi__Enter__49C3F6B7" FromRole="OneRevisions" ToRole="Enterprises" />
+    <NavigationProperty Name="Inspector" Relationship="Self.FK__OneRevisi__Inspe__4AB81AF0" FromRole="OneRevisions" ToRole="Inspectors" />
+  </EntityType>
+  <EntityType Name="Revision">
+    <Key>
+      <PropertyRef Name="RevisionID" />
+    </Key>
+    <Property Name="RevisionID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EnterpriseID" Type="Int32" />
+    <Property Name="InspectorID" Type="Int32" />
+    <Property Name="RevisionDate" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="CurrentViolations" Relationship="Self.FK__CurrentVi__Revis__04E4BC85" FromRole="Revisions" ToRole="CurrentViolations" />
+    <NavigationProperty Name="Enterprise" Relationship="Self.FK__Revisions__Enter__02FC7413" FromRole="Revisions" ToRole="Enterprises" />
+    <NavigationProperty Name="Inspector" Relationship="Self.FK__Revisions__Inspe__03F0984C" FromRole="Revisions" ToRole="Inspectors" />
+  </EntityType>
+  <EntityType Name="Violation">
+    <Key>
+      <PropertyRef Name="ViolationID" />
+    </Key>
+    <Property Name="ViolationID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sanction" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="CurrentViolations" Relationship="Self.FK__CurrentVi__Viola__36B12243" FromRole="Violations" ToRole="CurrentViolations" />
+  </EntityType>
+  <Association Name="FK__CurrentVi__Revis__04E4BC85">
+    <End Role="Revisions" Type="Self.Revision" Multiplicity="0..1" />
+    <End Role="CurrentViolations" Type="Self.CurrentViolation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Revisions">
+        <PropertyRef Name="RevisionID" />
+      </Principal>
+      <Dependent Role="CurrentViolations">
+        <PropertyRef Name="RevisionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CurrentVi__Viola__36B12243">
+    <End Role="Violations" Type="Self.Violation" Multiplicity="0..1" />
+    <End Role="CurrentViolations" Type="Self.CurrentViolation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Violations">
+        <PropertyRef Name="ViolationID" />
+      </Principal>
+      <Dependent Role="CurrentViolations">
+        <PropertyRef Name="ViolationID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__OneRevisi__Curre__4BAC3F29">
+    <End Role="CurrentViolations" Type="Self.CurrentViolation" Multiplicity="0..1" />
+    <End Role="OneRevisions" Type="Self.OneRevision" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CurrentViolations">
+        <PropertyRef Name="CurrentViolationID" />
+      </Principal>
+      <Dependent Role="OneRevisions">
+        <PropertyRef Name="CurrentViolationID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Inspector__Divis__6E01572D">
+    <End Role="Divisions" Type="Self.Division" Multiplicity="0..1" />
+    <End Role="Inspectors" Type="Self.Inspector" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Divisions">
+        <PropertyRef Name="DivisionID" />
+      </Principal>
+      <Dependent Role="Inspectors">
+        <PropertyRef Name="DivisionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__OneRevisi__Enter__49C3F6B7">
+    <End Role="Enterprises" Type="Self.Enterprise" Multiplicity="0..1" />
+    <End Role="OneRevisions" Type="Self.OneRevision" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Enterprises">
+        <PropertyRef Name="EnterpriseID" />
+      </Principal>
+      <Dependent Role="OneRevisions">
+        <PropertyRef Name="EnterpriseID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Revisions__Enter__02FC7413">
+    <End Role="Enterprises" Type="Self.Enterprise" Multiplicity="0..1" />
+    <End Role="Revisions" Type="Self.Revision" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Enterprises">
+        <PropertyRef Name="EnterpriseID" />
+      </Principal>
+      <Dependent Role="Revisions">
+        <PropertyRef Name="EnterpriseID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__OneRevisi__Inspe__4AB81AF0">
+    <End Role="Inspectors" Type="Self.Inspector" Multiplicity="0..1" />
+    <End Role="OneRevisions" Type="Self.OneRevision" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Inspectors">
+        <PropertyRef Name="InspectorID" />
+      </Principal>
+      <Dependent Role="OneRevisions">
+        <PropertyRef Name="InspectorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Revisions__Inspe__03F0984C">
+    <End Role="Inspectors" Type="Self.Inspector" Multiplicity="0..1" />
+    <End Role="Revisions" Type="Self.Revision" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Inspectors">
+        <PropertyRef Name="InspectorID" />
+      </Principal>
+      <Dependent Role="Revisions">
+        <PropertyRef Name="InspectorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MyDBEntities6" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CurrentViolations" EntityType="Self.CurrentViolation" />
+    <EntitySet Name="Divisions" EntityType="Self.Division" />
+    <EntitySet Name="Enterprises" EntityType="Self.Enterprise" />
+    <EntitySet Name="Inspectors" EntityType="Self.Inspector" />
+    <EntitySet Name="OneRevisions" EntityType="Self.OneRevision" />
+    <EntitySet Name="Revisions" EntityType="Self.Revision" />
+    <EntitySet Name="Violations" EntityType="Self.Violation" />
+    <AssociationSet Name="FK__CurrentVi__Revis__04E4BC85" Association="Self.FK__CurrentVi__Revis__04E4BC85">
+      <End Role="Revisions" EntitySet="Revisions" />
+      <End Role="CurrentViolations" EntitySet="CurrentViolations" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CurrentVi__Viola__36B12243" Association="Self.FK__CurrentVi__Viola__36B12243">
+      <End Role="Violations" EntitySet="Violations" />
+      <End Role="CurrentViolations" EntitySet="CurrentViolations" />
+    </AssociationSet>
+    <AssociationSet Name="FK__OneRevisi__Curre__4BAC3F29" Association="Self.FK__OneRevisi__Curre__4BAC3F29">
+      <End Role="CurrentViolations" EntitySet="CurrentViolations" />
+      <End Role="OneRevisions" EntitySet="OneRevisions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Inspector__Divis__6E01572D" Association="Self.FK__Inspector__Divis__6E01572D">
+      <End Role="Divisions" EntitySet="Divisions" />
+      <End Role="Inspectors" EntitySet="Inspectors" />
+    </AssociationSet>
+    <AssociationSet Name="FK__OneRevisi__Enter__49C3F6B7" Association="Self.FK__OneRevisi__Enter__49C3F6B7">
+      <End Role="Enterprises" EntitySet="Enterprises" />
+      <End Role="OneRevisions" EntitySet="OneRevisions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Revisions__Enter__02FC7413" Association="Self.FK__Revisions__Enter__02FC7413">
+      <End Role="Enterprises" EntitySet="Enterprises" />
+      <End Role="Revisions" EntitySet="Revisions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__OneRevisi__Inspe__4AB81AF0" Association="Self.FK__OneRevisi__Inspe__4AB81AF0">
+      <End Role="Inspectors" EntitySet="Inspectors" />
+      <End Role="OneRevisions" EntitySet="OneRevisions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Revisions__Inspe__03F0984C" Association="Self.FK__Revisions__Inspe__03F0984C">
+      <End Role="Inspectors" EntitySet="Inspectors" />
+      <End Role="Revisions" EntitySet="Revisions" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Magazine.Models.Division>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<table class="table">
+    <tr>
+        <th>
+            <h4>Название подразделения</h4>
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.ActionLink("Редактировать", "Edit", new { id=item.DivisionID }) |
+            @Html.ActionLink("Подробнее", "Details", new { id=item.DivisionID }) |
+            @Html.ActionLink("Удалить", "Delete", new { id=item.DivisionID })
+        </td>
+    </tr>
+}
+
+</table>
+
+<p>
+    @Html.ActionLink("Добавить", "Create")
+</p>

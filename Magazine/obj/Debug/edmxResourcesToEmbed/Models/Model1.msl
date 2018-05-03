@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище MyDBModelContainer" CdmEntityContainer="MyDBEntities8">
+    <EntitySetMapping Name="CurrentViolations">
+      <EntityTypeMapping TypeName="MyDBModel.CurrentViolation">
+        <MappingFragment StoreEntitySet="CurrentViolations">
+          <ScalarProperty Name="CurrentViolationID" ColumnName="CurrentViolationID" />
+          <ScalarProperty Name="ViolationID" ColumnName="ViolationID" />
+          <ScalarProperty Name="Responsible" ColumnName="Responsible" />
+          <ScalarProperty Name="UsingSanctions" ColumnName="UsingSanctions" />
+          <ScalarProperty Name="DisposalCheck" ColumnName="DisposalCheck" />
+          <ScalarProperty Name="PayCheck" ColumnName="PayCheck" />
+          <ScalarProperty Name="DispTime" ColumnName="DispTime" />
+          <ScalarProperty Name="RevisionID" ColumnName="RevisionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Divisions">
+      <EntityTypeMapping TypeName="MyDBModel.Division">
+        <MappingFragment StoreEntitySet="Divisions">
+          <ScalarProperty Name="DivisionID" ColumnName="DivisionID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Enterprises">
+      <EntityTypeMapping TypeName="MyDBModel.Enterprise">
+        <MappingFragment StoreEntitySet="Enterprises">
+          <ScalarProperty Name="EnterpriseID" ColumnName="EnterpriseID" />
+          <ScalarProperty Name="PropForm" ColumnName="PropForm" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="BossLastName" ColumnName="BossLastName" />
+          <ScalarProperty Name="BossFirstName" ColumnName="BossFirstName" />
+          <ScalarProperty Name="BossMiddleName" ColumnName="BossMiddleName" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Inspectors">
+      <EntityTypeMapping TypeName="MyDBModel.Inspector">
+        <MappingFragment StoreEntitySet="Inspectors">
+          <ScalarProperty Name="InspectorID" ColumnName="InspectorID" />
+          <ScalarProperty Name="DivisionID" ColumnName="DivisionID" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Revisions">
+      <EntityTypeMapping TypeName="MyDBModel.Revision">
+        <MappingFragment StoreEntitySet="Revisions">
+          <ScalarProperty Name="RevisionID" ColumnName="RevisionID" />
+          <ScalarProperty Name="EnterpriseID" ColumnName="EnterpriseID" />
+          <ScalarProperty Name="InspectorID" ColumnName="InspectorID" />
+          <ScalarProperty Name="RevisionDate" ColumnName="RevisionDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Violations">
+      <EntityTypeMapping TypeName="MyDBModel.Violation">
+        <MappingFragment StoreEntitySet="Violations">
+          <ScalarProperty Name="ViolationID" ColumnName="ViolationID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Sanction" ColumnName="Sanction" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

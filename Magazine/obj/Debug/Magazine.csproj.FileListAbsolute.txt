@@ -1,0 +1,408 @@
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\ApplicationInsights.config
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\Magazine.dll.config
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\Magazine.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\Magazine.pdb
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\csc.exe
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\csc.exe.config
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\csc.rsp
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\csi.exe
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\csi.exe.config
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\csi.rsp
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\System.AppContext.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\System.Console.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\System.IO.Compression.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\System.IO.Pipes.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\System.Security.Claims.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\System.Threading.Thread.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\System.ValueTuple.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\System.Xml.XPath.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\vbc.exe
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\vbc.exe.config
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\vbc.rsp
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\VBCSCompiler.exe
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\Antlr3.Runtime.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\EntityFramework.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\EntityFramework.SqlServer.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\Microsoft.AI.Web.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\Microsoft.ApplicationInsights.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\Newtonsoft.Json.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\System.Web.Helpers.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\System.Web.Mvc.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\System.Web.Optimization.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\System.Web.Razor.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\System.Web.WebPages.Deployment.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\System.Web.WebPages.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\System.Web.WebPages.Razor.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\WebGrease.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\EntityFramework.xml
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\EntityFramework.SqlServer.xml
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\System.Web.Helpers.xml
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\System.Web.Mvc.xml
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\System.Web.Optimization.xml
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\System.Web.Razor.xml
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\System.Web.WebPages.xml
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\System.Web.WebPages.Deployment.xml
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\System.Web.WebPages.Razor.xml
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\Antlr3.Runtime.pdb
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\Newtonsoft.Json.xml
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\Microsoft.ApplicationInsights.xml
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\Microsoft.AI.Web.xml
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\ru\System.Web.Razor.resources.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\obj\Debug\Magazine.csprojResolveAssemblyReference.cache
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\obj\Debug\Magazine.csproj.CoreCompileInputs.cache
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\obj\Debug\Magazine.csproj.CopyComplete
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\obj\Debug\Magazine.dll
+C:\Users\kiril\source\repos\ASP.NET\Magazine\Magazine\obj\Debug\Magazine.pdb
+d:\ASP project\Magazine\Magazine\bin\ApplicationInsights.config
+d:\ASP project\Magazine\Magazine\bin\Magazine.dll.config
+d:\ASP project\Magazine\Magazine\bin\Magazine.dll
+d:\ASP project\Magazine\Magazine\bin\Magazine.pdb
+d:\ASP project\Magazine\Magazine\bin\roslyn\csc.exe
+d:\ASP project\Magazine\Magazine\bin\roslyn\csc.exe.config
+d:\ASP project\Magazine\Magazine\bin\roslyn\csc.rsp
+d:\ASP project\Magazine\Magazine\bin\roslyn\csi.exe
+d:\ASP project\Magazine\Magazine\bin\roslyn\csi.exe.config
+d:\ASP project\Magazine\Magazine\bin\roslyn\csi.rsp
+d:\ASP project\Magazine\Magazine\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\Microsoft.CodeAnalysis.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\Microsoft.CSharp.Core.targets
+d:\ASP project\Magazine\Magazine\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\Microsoft.VisualBasic.Core.targets
+d:\ASP project\Magazine\Magazine\bin\roslyn\Microsoft.Win32.Primitives.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\System.AppContext.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\System.Collections.Immutable.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\System.Console.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\System.Diagnostics.Process.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\System.Diagnostics.StackTrace.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\System.IO.Compression.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\System.IO.FileSystem.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\System.IO.FileSystem.Primitives.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\System.IO.Pipes.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\System.Reflection.Metadata.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\System.Security.AccessControl.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\System.Security.Claims.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\System.Security.Cryptography.Encoding.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\System.Security.Cryptography.Primitives.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\System.Security.Principal.Windows.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\System.Text.Encoding.CodePages.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\System.Threading.Thread.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\System.ValueTuple.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\System.Xml.ReaderWriter.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\System.Xml.XmlDocument.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\System.Xml.XPath.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\System.Xml.XPath.XDocument.dll
+d:\ASP project\Magazine\Magazine\bin\roslyn\vbc.exe
+d:\ASP project\Magazine\Magazine\bin\roslyn\vbc.exe.config
+d:\ASP project\Magazine\Magazine\bin\roslyn\vbc.rsp
+d:\ASP project\Magazine\Magazine\bin\roslyn\VBCSCompiler.exe
+d:\ASP project\Magazine\Magazine\bin\roslyn\VBCSCompiler.exe.config
+d:\ASP project\Magazine\Magazine\bin\Antlr3.Runtime.dll
+d:\ASP project\Magazine\Magazine\bin\EntityFramework.dll
+d:\ASP project\Magazine\Magazine\bin\EntityFramework.SqlServer.dll
+d:\ASP project\Magazine\Magazine\bin\Microsoft.AI.Agent.Intercept.dll
+d:\ASP project\Magazine\Magazine\bin\Microsoft.AI.DependencyCollector.dll
+d:\ASP project\Magazine\Magazine\bin\Microsoft.AI.PerfCounterCollector.dll
+d:\ASP project\Magazine\Magazine\bin\Microsoft.AI.ServerTelemetryChannel.dll
+d:\ASP project\Magazine\Magazine\bin\Microsoft.AI.Web.dll
+d:\ASP project\Magazine\Magazine\bin\Microsoft.AI.WindowsServer.dll
+d:\ASP project\Magazine\Magazine\bin\Microsoft.ApplicationInsights.dll
+d:\ASP project\Magazine\Magazine\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+d:\ASP project\Magazine\Magazine\bin\Microsoft.Web.Infrastructure.dll
+d:\ASP project\Magazine\Magazine\bin\Newtonsoft.Json.dll
+d:\ASP project\Magazine\Magazine\bin\System.Web.Helpers.dll
+d:\ASP project\Magazine\Magazine\bin\System.Web.Mvc.dll
+d:\ASP project\Magazine\Magazine\bin\System.Web.Optimization.dll
+d:\ASP project\Magazine\Magazine\bin\System.Web.Razor.dll
+d:\ASP project\Magazine\Magazine\bin\System.Web.WebPages.Deployment.dll
+d:\ASP project\Magazine\Magazine\bin\System.Web.WebPages.dll
+d:\ASP project\Magazine\Magazine\bin\System.Web.WebPages.Razor.dll
+d:\ASP project\Magazine\Magazine\bin\WebGrease.dll
+d:\ASP project\Magazine\Magazine\bin\EntityFramework.xml
+d:\ASP project\Magazine\Magazine\bin\EntityFramework.SqlServer.xml
+d:\ASP project\Magazine\Magazine\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+d:\ASP project\Magazine\Magazine\bin\System.Web.Helpers.xml
+d:\ASP project\Magazine\Magazine\bin\System.Web.Mvc.xml
+d:\ASP project\Magazine\Magazine\bin\System.Web.Optimization.xml
+d:\ASP project\Magazine\Magazine\bin\System.Web.Razor.xml
+d:\ASP project\Magazine\Magazine\bin\System.Web.WebPages.xml
+d:\ASP project\Magazine\Magazine\bin\System.Web.WebPages.Deployment.xml
+d:\ASP project\Magazine\Magazine\bin\System.Web.WebPages.Razor.xml
+d:\ASP project\Magazine\Magazine\bin\Antlr3.Runtime.pdb
+d:\ASP project\Magazine\Magazine\bin\Newtonsoft.Json.xml
+d:\ASP project\Magazine\Magazine\bin\Microsoft.ApplicationInsights.xml
+d:\ASP project\Magazine\Magazine\bin\Microsoft.AI.DependencyCollector.xml
+d:\ASP project\Magazine\Magazine\bin\Microsoft.AI.ServerTelemetryChannel.xml
+d:\ASP project\Magazine\Magazine\bin\Microsoft.AI.WindowsServer.xml
+d:\ASP project\Magazine\Magazine\bin\Microsoft.AI.Web.xml
+d:\ASP project\Magazine\Magazine\bin\ru\System.Web.Helpers.resources.dll
+d:\ASP project\Magazine\Magazine\bin\ru\System.Web.Mvc.resources.dll
+d:\ASP project\Magazine\Magazine\bin\ru\System.Web.Optimization.resources.dll
+d:\ASP project\Magazine\Magazine\bin\ru\System.Web.Razor.resources.dll
+d:\ASP project\Magazine\Magazine\bin\ru\System.Web.WebPages.resources.dll
+d:\ASP project\Magazine\Magazine\bin\ru\System.Web.WebPages.Deployment.resources.dll
+d:\ASP project\Magazine\Magazine\bin\ru\System.Web.WebPages.Razor.resources.dll
+d:\ASP project\Magazine\Magazine\obj\Debug\Magazine.csprojResolveAssemblyReference.cache
+d:\ASP project\Magazine\Magazine\obj\Debug\Magazine.csproj.CoreCompileInputs.cache
+d:\ASP project\Magazine\Magazine\obj\Debug\Magazine.csproj.CopyComplete
+d:\ASP project\Magazine\Magazine\obj\Debug\Magazine.dll
+d:\ASP project\Magazine\Magazine\obj\Debug\Magazine.pdb
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\ApplicationInsights.config
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Magazine.dll.config
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Magazine.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Magazine.pdb
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\csc.exe
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\csc.exe.config
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\csc.rsp
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\csi.exe
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\csi.exe.config
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\csi.rsp
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\Microsoft.CodeAnalysis.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\Microsoft.CSharp.Core.targets
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\Microsoft.VisualBasic.Core.targets
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\Microsoft.Win32.Primitives.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.AppContext.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Collections.Immutable.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Console.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Diagnostics.Process.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Diagnostics.StackTrace.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.IO.Compression.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.IO.FileSystem.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.IO.FileSystem.Primitives.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.IO.Pipes.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Reflection.Metadata.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Security.AccessControl.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Security.Claims.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Security.Cryptography.Encoding.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Security.Cryptography.Primitives.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Security.Principal.Windows.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Text.Encoding.CodePages.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Threading.Thread.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.ValueTuple.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Xml.ReaderWriter.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Xml.XmlDocument.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Xml.XPath.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Xml.XPath.XDocument.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\vbc.exe
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\vbc.exe.config
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\vbc.rsp
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\VBCSCompiler.exe
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\VBCSCompiler.exe.config
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Antlr3.Runtime.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\EntityFramework.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\EntityFramework.SqlServer.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Microsoft.AI.Agent.Intercept.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Microsoft.AI.DependencyCollector.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Microsoft.AI.PerfCounterCollector.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Microsoft.AI.ServerTelemetryChannel.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Microsoft.AI.Web.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Microsoft.AI.WindowsServer.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Microsoft.ApplicationInsights.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Microsoft.Web.Infrastructure.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Newtonsoft.Json.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\System.Web.Helpers.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\System.Web.Mvc.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\System.Web.Optimization.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\System.Web.Razor.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\System.Web.WebPages.Deployment.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\System.Web.WebPages.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\System.Web.WebPages.Razor.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\WebGrease.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\EntityFramework.xml
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\EntityFramework.SqlServer.xml
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\System.Web.Helpers.xml
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\System.Web.Mvc.xml
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\System.Web.Optimization.xml
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\System.Web.Razor.xml
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\System.Web.WebPages.xml
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\System.Web.WebPages.Deployment.xml
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\System.Web.WebPages.Razor.xml
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Antlr3.Runtime.pdb
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Newtonsoft.Json.xml
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Microsoft.ApplicationInsights.xml
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Microsoft.AI.DependencyCollector.xml
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Microsoft.AI.ServerTelemetryChannel.xml
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Microsoft.AI.WindowsServer.xml
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Microsoft.AI.Web.xml
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\ru\System.Web.Helpers.resources.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\ru\System.Web.Mvc.resources.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\ru\System.Web.Optimization.resources.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\ru\System.Web.Razor.resources.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\ru\System.Web.WebPages.resources.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\ru\System.Web.WebPages.Deployment.resources.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\bin\ru\System.Web.WebPages.Razor.resources.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\obj\Debug\Magazine.csprojResolveAssemblyReference.cache
+d:\MVS Project\.NET MVC5\Magazine\Magazine\obj\Debug\Magazine.csproj.CoreCompileInputs.cache
+d:\MVS Project\.NET MVC5\Magazine\Magazine\obj\Debug\Magazine.csproj.CopyComplete
+d:\MVS Project\.NET MVC5\Magazine\Magazine\obj\Debug\Magazine.dll
+d:\MVS Project\.NET MVC5\Magazine\Magazine\obj\Debug\Magazine.pdb
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\ApplicationInsights.config
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Magazine.dll.config
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Magazine.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Magazine.pdb
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\csc.exe
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\csc.exe.config
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\csc.rsp
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\csi.exe
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\csi.exe.config
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\csi.rsp
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\Microsoft.CodeAnalysis.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\Microsoft.CSharp.Core.targets
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\Microsoft.VisualBasic.Core.targets
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\Microsoft.Win32.Primitives.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.AppContext.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Collections.Immutable.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Console.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Diagnostics.Process.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Diagnostics.StackTrace.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.IO.Compression.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.IO.FileSystem.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.IO.FileSystem.Primitives.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.IO.Pipes.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Reflection.Metadata.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Security.AccessControl.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Security.Claims.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Security.Cryptography.Encoding.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Security.Cryptography.Primitives.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Security.Principal.Windows.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Text.Encoding.CodePages.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Threading.Thread.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.ValueTuple.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Xml.ReaderWriter.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Xml.XmlDocument.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Xml.XPath.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\System.Xml.XPath.XDocument.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\vbc.exe
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\vbc.exe.config
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\vbc.rsp
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\VBCSCompiler.exe
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\roslyn\VBCSCompiler.exe.config
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Antlr3.Runtime.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\EntityFramework.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\EntityFramework.SqlServer.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Microsoft.AI.Agent.Intercept.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Microsoft.AI.DependencyCollector.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Microsoft.AI.PerfCounterCollector.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Microsoft.AI.ServerTelemetryChannel.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Microsoft.AI.Web.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Microsoft.AI.WindowsServer.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Microsoft.ApplicationInsights.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Microsoft.Web.Infrastructure.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Newtonsoft.Json.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\System.Web.Helpers.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\System.Web.Mvc.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\System.Web.Optimization.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\System.Web.Razor.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\System.Web.WebPages.Deployment.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\System.Web.WebPages.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\System.Web.WebPages.Razor.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\WebGrease.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\EntityFramework.xml
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\EntityFramework.SqlServer.xml
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\System.Web.Helpers.xml
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\System.Web.Mvc.xml
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\System.Web.Optimization.xml
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\System.Web.Razor.xml
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\System.Web.WebPages.xml
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\System.Web.WebPages.Deployment.xml
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\System.Web.WebPages.Razor.xml
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Antlr3.Runtime.pdb
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Newtonsoft.Json.xml
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Microsoft.ApplicationInsights.xml
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Microsoft.AI.DependencyCollector.xml
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Microsoft.AI.ServerTelemetryChannel.xml
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Microsoft.AI.WindowsServer.xml
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\Microsoft.AI.Web.xml
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\ru\System.Web.Helpers.resources.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\ru\System.Web.Mvc.resources.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\ru\System.Web.Optimization.resources.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\ru\System.Web.Razor.resources.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\ru\System.Web.WebPages.resources.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\ru\System.Web.WebPages.Deployment.resources.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\bin\ru\System.Web.WebPages.Razor.resources.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\obj\Debug\Magazine.csprojResolveAssemblyReference.cache
+e:\MVS Project\.NET MVC5\Magazine\Magazine\obj\Debug\Magazine.csproj.CoreCompileInputs.cache
+e:\MVS Project\.NET MVC5\Magazine\Magazine\obj\Debug\Magazine.csproj.CopyComplete
+e:\MVS Project\.NET MVC5\Magazine\Magazine\obj\Debug\Magazine.dll
+e:\MVS Project\.NET MVC5\Magazine\Magazine\obj\Debug\Magazine.pdb

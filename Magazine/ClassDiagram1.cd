@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Magazine.BundleConfig" Collapsed="true">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\BundleConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Magazine.FilterConfig" Collapsed="true">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\FilterConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Magazine.RouteConfig" Collapsed="true">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\RouteConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Magazine.MvcApplication" Collapsed="true">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Magazine.Controllers.CurrentViolationsController">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACARAACAAAQIAAAAAAEACEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\CurrentViolationsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Magazine.Controllers.DivisionsController">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACARAACAAAAAAAAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\DivisionsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Magazine.Controllers.EnterprisesController">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAQAACAAAAAAAAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\EnterprisesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Magazine.Controllers.InspectorsController">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACARAACAAAAAAAAgAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\InspectorsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Magazine.Controllers.RevisionsController">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACARAACAAAAAAAAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\RevisionsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Magazine.Controllers.ViolationsController">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACARAACAAAAAAAAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\ViolationsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Parking.Controllers.HomeController">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\HomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Magazine.Models.MyDBEntities8" Collapsed="true">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAEAAAAAAAAAAAAENAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Models\Model1.Context.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Magazine.Models.CurrentViolation" Collapsed="true">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAAAAAAAAAAAAAAAAQAAAQAAAEAAAAgAQQAAAAQAAAg=</HashCode>
+      <FileName>Models\CurrentViolation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Magazine.Models.Division" Collapsed="true">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAEAAAEAAAA=</HashCode>
+      <FileName>Models\Division.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Magazine.Models.Enterprise" Collapsed="true">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAACAAAACAAAQAQAAkAAAAACAQAAAAAAAAA=</HashCode>
+      <FileName>Models\Enterprise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Magazine.Models.Inspector" Collapsed="true">
+    <Position X="14.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAEAAAQAAAAAFAAAAAAAAEAAAAAAAg=</HashCode>
+      <FileName>Models\Inspector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Magazine.Models.Revision" Collapsed="true">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAEAAAEAAAAAAAAAgAEAAAgQAAAAAAAAAA=</HashCode>
+      <FileName>Models\Revision.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Magazine.Models.Violation" Collapsed="true">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAQAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Violation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="44d174509d7a48be84ce242a993e6aad" Name="Diagram1">
+        <EntityTypeShape EntityType="MyDBModel.CurrentViolation" Width="1.5" PointX="7.375" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDBModel.Division" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDBModel.Enterprise" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDBModel.Inspector" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDBModel.Revision" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDBModel.Violation" Width="1.5" PointX="7.375" PointY="4.375" IsExpanded="true" />
+        <AssociationConnector Association="MyDBModel.FK__CurrentVi__Revis__14270015" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDBModel.FK__CurrentVi__Viola__151B244E" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDBModel.FK__Inspector__Divis__6E01572D" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDBModel.FK__Revisions__Enter__02FC7413" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDBModel.FK__Revisions__Inspe__03F0984C" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,31 @@
+﻿@model Magazine.Models.CurrentViolation
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+
+<h4>Вы дуействительно хотите удалить эту запись ?</h4>
+<div>
+    <hr />
+    <h5><b>Номер протокола: </b>@Html.DisplayFor(model => model.RevisionID)</h5>
+    <h5><b>Предприятие: </b>@Html.DisplayFor(model => model.Revision.Enterprise.Name)</h5>
+    <h5><b>Нарушение: </b>@Html.DisplayFor(model => model.Violation.Name)</h5>
+    <h5><b>Ответственный: </b>@Html.DisplayFor(model => model.Responsible)</h5>
+    <h5><b>Штраф: </b>@Html.DisplayFor(model => model.UsingSanctions)</h5>
+    <h5><b>Устранение: </b>@Html.DisplayFor(model => model.DisposalCheck)</h5>
+    <h5><b>Оплата: </b>@Html.DisplayFor(model => model.PayCheck)</h5>
+    <h5><b>Дата проверки: </b>@Html.DisplayFor(model => model.Revision.RevisionDate)</h5>
+    <h5><b>Время на исправление: </b>@Html.DisplayFor(model => model.DispTime)</h5>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Удалить" class="btn btn-default" /> |
+            @Html.ActionLink("Назад", "Index")
+        </div>
+    }
+</div>
+

@@ -1,0 +1,23 @@
+﻿@model Magazine.Models.Revision
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+
+<h4>Вы уверенны что хотите удалить эту запись ?</h4>
+<div>
+    <h5><b>Номер протокола:</b> @Html.DisplayFor(model => model.RevisionID)</h5>
+    <h5><b>Дата проверки:</b> @Html.DisplayFor(model => model.RevisionDate)</h5>
+    <h5><b>Предприятие:</b>@Html.DisplayFor(model => model.Enterprise.PropForm) @Html.DisplayFor(model => model.Enterprise.Name)</h5>
+    <h5><b>Инспектор:</b> @Html.DisplayFor(model => model.Inspector.LastName) @Html.DisplayFor(model => model.Inspector.FirstName) @Html.DisplayFor(model => model.Inspector.MiddleName) </h5>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Удалить" class="btn btn-default" /> |
+            @Html.ActionLink("Назад", "Index")
+        </div>
+    }
+</div>

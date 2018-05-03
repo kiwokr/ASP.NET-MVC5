@@ -1,0 +1,51 @@
+﻿@model Magazine.Models.Revision
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<hr/>
+<div>
+    <h5><b>Номер протокола:</b> @Html.DisplayFor(model => model.RevisionID)</h5>
+    <h5><b>Дата проверки:</b> @Html.DisplayFor(model => model.RevisionDate)</h5>
+    <h5><b>Предприятие:</b>@Html.DisplayFor(model => model.Enterprise.PropForm) @Html.DisplayFor(model => model.Enterprise.Name)</h5>
+    <h5><b>Инспектор:</b> @Html.DisplayFor(model => model.Inspector.LastName) @Html.DisplayFor(model => model.Inspector.FirstName) @Html.DisplayFor(model => model.Inspector.MiddleName) </h5>
+
+    <table class="table">
+        <tr>
+
+            <th>
+                <h5><b>Нарушение</b></h5>
+            </th>
+            <th>
+                <h5><b>Ответственный</b></h5>
+            </th>
+            <th>
+                <h5><b>Штраф</b></h5>
+            </th>
+            <th>
+                <h5><b>Оплата</b></h5>
+            </th>
+            <th>
+                <h5><b>Устранение</b></h5>
+            </th>
+            <th>
+                <h5><b>Время на устранение</b></h5>
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var t in Model.CurrentViolations)
+        {
+            <tr>
+                <td>@t.Violation.Name</td>
+                <td>@t.Responsible</td>
+                <td>@t.UsingSanctions</td>
+                <td>@t.PayCheck</td>
+                <td>@t.DisposalCheck</td>
+                <td>@t.DispTime</td>
+            </tr>
+        }
+    </table>
+    @Html.ActionLink("Добавить нарушение", "Create","CurrentViolations")
+</div>

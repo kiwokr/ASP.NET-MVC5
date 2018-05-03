@@ -1,0 +1,93 @@
+﻿@model IEnumerable<Magazine.Models.CurrentViolation>
+
+@{
+    ViewBag.Title = "IndexDisposalTrue";
+}
+
+<h2>Список устраненных нарушений</h2>
+
+<p>
+    @Html.ActionLink("Добавить", "Create") |
+    @Html.ActionLink("Оплачено", "IndexPayTrue") | @Html.ActionLink("Не оплачено", "IndexPayFalse") |
+    @Html.ActionLink("Устранено", "IndexDisposalTrue") | @Html.ActionLink("Не устранено", "IndexDisposalFalse")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            <h5><b>Номер протокола</b></h5>
+        </th>
+        <th>
+            <h5><b>Предприятие</b></h5>
+        </th>
+        <th>
+            <h5><b>Нарушение</b></h5>
+        </th>
+
+        <th>
+            <h5><b>Ответственный</b></h5>
+        </th>
+        <th>
+            <h5><b>Штраф</b></h5>
+        </th>
+        <th>
+            <h5><b>Устранение</b></h5>
+        </th>
+        <th>
+            <h5><b>Оплата</b></h5>
+        </th>
+        <th>
+            <h5><b>Дата проверки</b></h5>
+        </th>
+        <th>
+            <h5><b>Время на исправление</b></h5>
+        </th>
+
+
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        if (item.DisposalCheck.ToLower() == "устранено")
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RevisionID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Revision.Enterprise.PropForm) @Html.DisplayFor(modelItem => item.Revision.Enterprise.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Violation.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Responsible)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UsingSanctions)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DisposalCheck)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PayCheck)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Revision.RevisionDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DispTime)
+                </td>
+
+                <td>
+                    @Html.ActionLink("Редактировать", "Edit", new { id = item.CurrentViolationID })
+                    @Html.ActionLink("Удалить", "Delete", new { id = item.CurrentViolationID })
+                </td>
+            </tr>
+        }
+
+
+
+    }
+
+</table>
